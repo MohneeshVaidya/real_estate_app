@@ -1,0 +1,18 @@
+@use "../../scss/mixins/responsive";
+
+.appLayout {
+    max-width: 1066px;
+    margin-inline: auto;
+    height: 100vh;
+
+    @include responsive.lg {
+        max-width: 900px;
+    }
+
+    @include responsive.md {
+        max-width: 700px;
+    }
+
+    @include responsive.sm {
+    }
+}
